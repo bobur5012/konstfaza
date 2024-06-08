@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.tabcontent {
+  display: none;
+  padding: 20px;
+  border-top: none;
+}
+
+#canvas {
+  border: 1px solid black;
+  margin-top: 20px;
+  cursor: move;
+  max-width: 100%;
+  height: auto;
+}
+
+#imagePreview img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+#output {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.color-button {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin: 5px;
+  cursor: pointer;
+  border: 1px solid #000;
+}
